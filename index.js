@@ -107,6 +107,31 @@ if ((message.content.includes("https://freegiftcards.co")) || (message.content.i
     message.channel.send("a blacklisted link of grabify domain was deleted!");
   }
   
+ if ((message.content.includes("https://partpicker.shop")) || (message.content.includes("http://partpicker.shop"))) {
+    message.delete();
+    message.channel.send("a blacklisted link of grabify domain was deleted!");
+  }
+  
+ if ((message.content.includes("https://websafe.online")) || (message.content.includes("http://websafe.online"))) {
+    message.delete();
+    message.channel.send("a blacklisted link of grabify domain was deleted!");
+  }
+  
+ if ((message.content.includes("https://sportshub.bar")) || (message.content.includes("http://sportshub.bar"))) {
+    message.delete();
+    message.channel.send("a blacklisted link of grabify domain was deleted!");
+  }
+  
+ if ((message.content.includes("https://herald.sbs")) || (message.content.includes("http://herald.sbs"))) {
+    message.delete();
+    message.channel.send("a blacklisted link of grabify domain was deleted!");
+  }
+  
+ if ((message.content.includes("https://locations.quest")) || (message.content.includes("http://locations.quest"))) {
+    message.delete();
+    message.channel.send("a blacklisted link of grabify domain was deleted!");
+  }
+  
 });
 
 // if you want to ban the person who sent tne link, just add message.author.ban();
